@@ -1,0 +1,1 @@
+/Users/ilhamauliamalik/Documents/test/ichigo/UnsplashPhoto/buildSrc/build/classes/kotlin/main/BuildPlugins.class:/Users/ilhamauliamalik/Documents/test/ichigo/UnsplashPhoto/buildSrc/build/classes/kotlin/main/Deps.class:/Users/ilhamauliamalik/Documents/test/ichigo/UnsplashPhoto/buildSrc/build/classes/kotlin/main/Versions.class
