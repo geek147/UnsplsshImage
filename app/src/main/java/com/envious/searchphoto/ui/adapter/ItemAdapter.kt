@@ -42,6 +42,8 @@ class ItemAdapter(private val context: Context, private val isSearchResult: Bool
     override fun onBindViewHolder(holderItem: ItemViewHolder, position: Int) {
         with(holderItem) {
             ImageLoader.with(context).load(binding.ivMoviePoster, listItem[position].urls.regular)
+            holderItem.binding.tvUsername.text = listItem[position].username
+            holderItem.binding.tvDesc.text = listItem[position].description
             holderItem.binding.ivMoviePoster.setOnClickListener {
                 val bundle = Bundle()
                 bundle.putString(DetailFragment.EXTRA_IMAGE_URL, listItem[position].urls.regular)
